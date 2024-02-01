@@ -123,8 +123,8 @@ function Sidebar() {
               {userRole === 'admin' && (
                 <>
                   <Nav.Link
-                    onClick={() => handleNavLinkClick('add-reservation')}
-                    className={activeNavLink === 'add-reservation' ? 'active' : ''}
+                    onClick={() => handleNavLinkClick('add-service')}
+                    className={activeNavLink === 'add-service' ? 'active' : ''}
                   >
                     <span className="navlink-text">
                       <BsDatabaseFillAdd />
