@@ -133,8 +133,8 @@ function Sidebar() {
                     </span>
                   </Nav.Link>
                   <Nav.Link
-                    onClick={() => handleNavLinkClick('delete-reservation')}
-                    className={activeNavLink === 'delete-reservation' ? 'active' : ''}
+                    onClick={() => handleNavLinkClick('delete-service')}
+                    className={activeNavLink === 'delete-service' ? 'active' : ''}
                   >
                     <span className="navlink-text">
                       <BsTrash3 />
